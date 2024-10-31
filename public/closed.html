@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- Open Sans Google Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+
+    <!-- Link to CSS stylesheet -->
+    <!-- <link rel="stylesheet" href="css/closed.css" /> -->
+    <link rel="stylesheet" href="css/styles.css">
+    <title>Closed | Lumina Creative</title>
+  </head>
+
+  <body>
+    <div class="closed-overlay" id="overlay">
+      <!-- Main Section Container -->
+      <section class="closed-container">
+        <!-- Status Message -->
+        <h1 id="statusMessage" class="status-message">
+          ⏰ Sorry! We Are Currently Closed
+        </h1>
+
+        <!-- Next Opening Time -->
+        <div class="next-open-time">
+          <span id="nextOpenTime"></span>
+        </div>
+
+        <!-- Check Back Message -->
+        <p id="checkBackText" class="check-back-text">
+          Check back in:
+        </p>
+
+        <!-- Countdown Timer -->
+        <div id="countdown" class="countdown"></div>
+
+        <!-- Go Back Home Button -->
+        <a href="/" class="closed-btn btn">Go to Site</a>
+      </section>
+    </div>
+
+    <!-- JavaScript for Countdown Functionality -->
+    <script src="/js/closed.js"></script>
+  </body>
+</html>
